@@ -25,22 +25,27 @@ body {
 
 .menu-item:nth-child(1) {
     background-color: red;
+    border-color: black;
 }
 
 .menu-item:nth-child(2) {
     background-color: green;
+    border-color: aqua;
 }
 
 .menu-item:nth-child(3) {
     background-color: blue;
+    border-color: brown;
 }
 
 .menu-item:nth-child(4) {
-    background-color: orange;
+    background-color: orange; 
+    border-color: aquamarine;
 }
 
 .menu-item:nth-child(5) {
     background-color: purple;
+    border-color: rgb(226, 43, 189);
 }
 
 /* Content */
