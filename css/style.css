@@ -25,61 +25,68 @@ body {
 
 .menu-item:nth-child(1) {
     background-color: red;
-    border-color: black;
+    border-color: 20px solid white;
 }
 
 .menu-item:nth-child(2) {
     background-color: green;
-    border-color: aqua;
+    border-color: 20px solid white;
 }
 
 .menu-item:nth-child(3) {
     background-color: blue;
-    border-color: brown;
+    border-color: 20px solid white;
 }
 
 .menu-item:nth-child(4) {
-    background-color: orange; 
-    border-color: aquamarine;
+    background-color: orange;
+    border-color: 20px solid white;
 }
 
 .menu-item:nth-child(5) {
     background-color: purple;
-    border-color: rgb(226, 43, 189);
+    border-color: 5px solid yellow;
 }
 
 /* Content */
 .content {
     flex: 3;
+    border: 5px rgb(42, 18, 2);
 }
 
 .content-column {
     flex: 1;
     display: flex;
     flex-direction: column;
+    border: 5px solid brown
+
 }
 
 .left-column {
     background-color: teal;
+    border: 20px solid
 }
 
 .right-column {
     background-color: pink;
+    border: 30px solid green
 }
 
 .right-column-item {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border: 5px solid rgb(122, 0, 128)
 }
 
 /* Different background colors for right column items */
 .right-column-item:nth-child(1) {
-    background-color: cyan;
+    background-color: rgb(173, 224, 21);
+    border: 5px solid white
 }
 
 .right-column-item:nth-child(2) {
-    background-color: lime;
+    background-color: rgb(255, 94, 0);
 }
 
 /* Add different colors for each row as needed */
@@ -88,6 +95,7 @@ body {
 .footer {
     background-color: lightcoral;
     gap: 15px;
+    border: 5px solid white
 }
 
 .footer-column {
@@ -98,12 +106,15 @@ body {
 
 .footer-column:nth-child(1) {
     background-color: brown;
+    border: 5px solid white
 }
 
 .footer-column:nth-child(2) {
     background-color: yellow;
+    border: 5px solid white
 }
 
 .footer-column:nth-child(3) {
     background-color: violet;
+    border: 5px solid white
 }
